@@ -17,32 +17,31 @@ function Footer() {
           </Col>
           <Col md={4} className="px-lg-5">
             <h5>Enlaces Útiles</h5>
-            <ul className="list-unstyled ">
+            <ol className="list-unstyled">
               <li>
-                <a href="#home" className="text-light">
+                <p href="#home" className="text-light">
                   Inicio
-                </a>
+                </p>
               </li>
               <li>
-                <a href="#apartamentos" className="text-light">
+                <p href="#apartamentos" className="text-light">
                   Apartamentos
-                </a>
+                </p>
               </li>
-            </ul>
+            </ol>
           </Col>
           <Col md={4}>
             <h5>Contacto</h5>
-            <p>
-              Teléfono: +34 651 694 333
-              <br />
-              Email: cedeira05@gmail.com
-            </p>
+            <ol className="list-unstyled">
+              <li>Teléfono: +34 651 694 333</li>
+              <li>Email: cedeira05@gmail.com</li>
+            </ol>
           </Col>
         </Row>
         <Row className="mt-3">
           <Col className="text-center">
             <p>Cedeira_Dev was here!</p>
-            &copy; Todos los derechos reservados.
+            <p>&copy; Todos los derechos reservados.</p>
           </Col>
         </Row>
       </Container>
