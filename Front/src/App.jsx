@@ -3,7 +3,6 @@ import NavBar from "./components/NavBar";
 import Carrousel from "./components/Carrousel";
 import ApartamentGrid from "./components/ApartamentGrid";
 import Footer from "./components/footer";
-import ReservationForm from "./components/ReservationForm";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
 
       <Carrousel />
 
-      <h1 className="mx-3 my-3 text-center">Descubre la zona</h1>
+      <h1 className="mx-3 my-5 text-center">Descubre la zona</h1>
       <p className="text-dark h5 mx-3 my-4">
         El Val Miñor es un destino turístico que combina belleza natural,
         historia y cultura. Es conocido por sus paisajes impresionantes, playas
@@ -36,7 +35,7 @@ function App() {
         tradicionales gallegos.
       </p>
 
-      <h2 id="apartamentos" className="my-3 text-center">
+      <h2 id="apartamentos" className="mt-5 text-center">
         Nuestros Apartamentos
       </h2>
       <ApartamentGrid />

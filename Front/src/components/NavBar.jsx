@@ -9,7 +9,6 @@ function NavBar() {
         <Nav className="ms-auto">
           <Nav.Link href="#home">Inicio</Nav.Link>
           <Nav.Link href="#apartamentos">Apartamentos</Nav.Link>
-          <Nav.Link href="#booking">Reservar</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

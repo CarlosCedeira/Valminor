@@ -9,9 +9,10 @@ function Footer() {
           <Col md={4}>
             <h5>Sobre Nosotros</h5>
             <p>
-              Somos una empresa dedicada a ofrecer los mejores servicios de
-              alojamiento en el Val Miñor. Nuestro objetivo es proporcionar una
-              experiencia inolvidable a nuestros huéspedes.
+              Descubre el Val Miñor es una plataforma dedicada a ofrecer
+              información sobre apartamentos turísticos en la zona de Val Miñor.
+              Aquí podrás encontrar una variedad de alojamientos de diferentes
+              propietarios.
             </p>
           </Col>
           <Col md={4} className="px-lg-5">
@@ -23,13 +24,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#amenities" className="text-light">
-                  Comodidades
-                </a>
-              </li>
-              <li>
-                <a href="#booking" className="text-light">
-                  Reservar
+                <a href="#apartamentos" className="text-light">
+                  Apartamentos
                 </a>
               </li>
             </ul>
@@ -37,20 +33,16 @@ function Footer() {
           <Col md={4}>
             <h5>Contacto</h5>
             <p>
-              Dirección: Calle Falsa 123, Val Miñor
+              Teléfono: +34 651 694 333
               <br />
-              Teléfono: +34 123 456 789
-              <br />
-              Email: info@apartamentopremium.com
+              Email: cedeira05@gmail.com
             </p>
           </Col>
         </Row>
         <Row className="mt-3">
           <Col className="text-center">
-            <p>
-              <p>Cedeira_Dev was here!</p>
-              &copy; Todos los derechos reservados.
-            </p>
+            <p>Cedeira_Dev was here!</p>
+            &copy; Todos los derechos reservados.
           </Col>
         </Row>
       </Container>

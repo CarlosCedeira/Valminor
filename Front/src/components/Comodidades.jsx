@@ -16,34 +16,6 @@ function Comodidades() {
                 marginRight: "10px",
               }}
             >
-              <path d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-            </svg>
-            <p className="mb-0">Calificación general: 4.56</p>
-          </li>
-          <li className="d-flex align-items-center mb-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 -960 960 960"
-              style={{
-                width: "25px",
-                height: "25px",
-                marginRight: "10px",
-              }}
-            >
-              <path d="M480-120q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM254-346l-84-86q59-59 138.5-93.5T480-560q92 0 171.5 35T790-430l-84 84q-44-44-102-69t-124-25q-66 0-124 25t-102 69ZM84-516 0-600q92-94 215-147t265-53q142 0 265 53t215 147l-84 84q-77-77-178.5-120.5T480-680q-116 0-217.5 43.5T84-516Z" />
-            </svg>
-            <p className="mb-0">Wifi</p>
-          </li>
-          <li className="d-flex align-items-center mb-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 -960 960 960"
-              style={{
-                width: "25px",
-                height: "25px",
-                marginRight: "10px",
-              }}
-            >
               <path d="M280-600q-33 0-56.5-23.5T200-680q0-33 23.5-56.5T280-760q33 0 56.5 23.5T360-680q0 33-23.5 56.5T280-600ZM200-80q-17 0-28.5-11.5T160-120q-33 0-56.5-23.5T80-200v-240h120v-30q0-38 26-64t64-26q20 0 37 8t31 22l56 62q8 8 15.5 15t16.5 13h274v-326q0-14-10-24t-24-10q-6 0-11.5 2.5T664-790l-50 50q5 17 2 33.5T604-676L494-788q14-9 30-11.5t32 3.5l50-50q16-16 36.5-25t43.5-9q48 0 81 33t33 81v326h80v240q0 33-23.5 56.5T800-120q0 17-11.5 28.5T760-80H200Zm-40-120h640v-160H160v160Zm0 0h640-640Z" />
             </svg>
             <p className="mb-0">Toallas de baño</p>
@@ -72,14 +44,10 @@ function Comodidades() {
                 marginRight: "10px",
               }}
             >
-              <path d="M240-120v-720h280q100 0 170 70t70 170q0 100-70 170t-170 70H400v240H240Zm160-400h128q33 0 56.5-23.5T608-600q0-33-23.5-56.5T528-680H400v160Z" />
+              <path d="M200-120v-400q-33 0-56.5-23.5T120-600v-212q0-12 8-20t20-8q12 0 20 8t8 20v132h36v-132q0-12 8-20t20-8q12 0 20 8t8 20v132h36v-132q0-12 8-20t20-8q12 0 20 8t8 20v212q0 33-23.5 56.5T280-520v400h-80Zm280 0v-404q-42-20-61-62.5T400-676q0-63 31.5-113.5T520-840q57 0 88.5 50.5T640-676q0 47-19 89.5T560-524v404h-80Zm200 0v-720q66 0 113 47t47 113v240h-80v320h-80Z" />
             </svg>
-            <p className="mb-0">Parking</p>
+            <p className="mb-0">Utensilios de cocina</p>
           </li>
-        </ul>
-      </Col>
-      <Col>
-        <ul style={{ listStyleType: "none", padding: 0 }}>
           <li className="d-flex align-items-center mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -90,10 +58,14 @@ function Comodidades() {
                 marginRight: "10px",
               }}
             >
-              <path d="M237-396h148l169-169.5q11.5-11.44 16.75-25.22T576-620q0-15.5-5.5-29.25T553.91-675l-37.41-37q-11.58-11.5-25.74-17.25-14.15-5.75-29.59-5.75-14.67 0-28.45 5.75T407.5-713L237-544v148Zm261.5-224.5-37-37 37 37Zm-184 147v-38l64.5-63 18.5 18 18 18.5-63 64.5h-38Zm83-83 18 18.5-36.5-36.5 18.5 18ZM484-396h239v-75H559l-75 75ZM56-61v-723q0-50.94 35.03-85.97T177-905h606q50.94 0 85.97 35.03T904-784v448q0 50.94-35.03 85.97T783-215H210L56-61Zm122.5-275H783v-448H177v450l1.5-2Zm-1.5 0v-448 448Z" />
+              <path d="M480-120q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM254-346l-84-86q59-59 138.5-93.5T480-560q92 0 171.5 35T790-430l-84 84q-44-44-102-69t-124-25q-66 0-124 25t-102 69ZM84-516 0-600q92-94 215-147t265-53q142 0 265 53t215 147l-84 84q-77-77-178.5-120.5T480-680q-116 0-217.5 43.5T84-516Z" />
             </svg>
-            <p className="mb-0">Reseñas totales: 41</p>
+            <p className="mb-0">Wifi</p>
           </li>
+        </ul>
+      </Col>
+      <Col>
+        <ul style={{ listStyleType: "none", padding: 0 }}>
           <li className="d-flex align-items-center mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -118,10 +90,11 @@ function Comodidades() {
                 marginRight: "10px",
               }}
             >
-              <path d="M200-120v-400q-33 0-56.5-23.5T120-600v-212q0-12 8-20t20-8q12 0 20 8t8 20v132h36v-132q0-12 8-20t20-8q12 0 20 8t8 20v132h36v-132q0-12 8-20t20-8q12 0 20 8t8 20v212q0 33-23.5 56.5T280-520v400h-80Zm280 0v-404q-42-20-61-62.5T400-676q0-63 31.5-113.5T520-840q57 0 88.5 50.5T640-676q0 47-19 89.5T560-524v404h-80Zm200 0v-720q66 0 113 47t47 113v240h-80v320h-80Z" />
+              <path d="M240-120v-720h280q100 0 170 70t70 170q0 100-70 170t-170 70H400v240H240Zm160-400h128q33 0 56.5-23.5T608-600q0-33-23.5-56.5T528-680H400v160Z" />
             </svg>
-            <p className="mb-0">Utensilios de cocina</p>
+            <p className="mb-0">Parking</p>
           </li>
+
           <li className="d-flex align-items-center mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
